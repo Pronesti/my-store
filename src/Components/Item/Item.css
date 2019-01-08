@@ -1,0 +1,12 @@
+.Item{
+    display: inline-block;
+    max-width:  50rem;
+    max-height: 50rem;
+    border: solid lightgrey 1px;
+    overflow:hidden;
+    border-radius: 1%;
+    box-shadow: 2px 4px 3px -2px rgba(148,146,148,1);
+    margin: 0.8rem;
+    padding-bottom: 0.8rem;
+    padding-top: 0.8rem;
+}

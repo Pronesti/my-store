@@ -1,0 +1,7 @@
+.purchaseForm{
+    margin: 1rem;
+    padding: 1rem;
+    border: solid lightgrey 0.1rem;
+    border-radius: 1%;
+    box-shadow: 2px 4px 3px -2px rgba(148,146,148,0.5);
+}
