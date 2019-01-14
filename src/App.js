@@ -7,6 +7,19 @@ import Shop from './Pages/Shop';
 import User from './Pages/User';
 import Purchase from './Pages/Purchase';
 
+import firebase from 'firebase';
+
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDVxLD2xBd_86L7658XmPGUFmvWzslVMv4",
+    authDomain: "my-store-new.firebaseapp.com",
+    databaseURL: "https://my-store-new.firebaseio.com",
+    projectId: "my-store-new",
+    storageBucket: "my-store-new.appspot.com",
+    messagingSenderId: "357065801839"
+  };
+  firebase.initializeApp(config);
+
 class App extends Component {
   render() {
     return (
