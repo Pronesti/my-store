@@ -9,4 +9,10 @@
     margin: 0.8rem;
     padding-bottom: 0.8rem;
     padding-top: 0.8rem;
+    background-color: white;
+}
+
+.shrink{
+    max-width: 20rem;
+    background-color: white;
 }
