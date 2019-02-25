@@ -6,6 +6,7 @@ import Home from './Pages/Home';
 import Shop from './Pages/Shop';
 import User from './Pages/User';
 import Purchase from './Pages/Purchase';
+import AddItem from './Pages/AddItem';
 
 import firebase from 'firebase';
 
@@ -31,7 +32,8 @@ class App extends Component {
       <Route exact path="/" component={Home}/>
       <Route path="/shop" component={Shop}/>
       <Route path="/user" component={User}/>  
-      <Route path="/purchase" component={Purchase}/>   
+      <Route path="/purchase" component={Purchase}/>
+      <Route path="/addItem" component={AddItem}/>     
       </Switch>
       </Fragment>
   </BrowserRouter>

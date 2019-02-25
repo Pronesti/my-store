@@ -25,6 +25,9 @@ class Navigation extends React.Component {
           <Menu.Item name='sign-in'>
             <Link to='/user'> Sign In</Link>
           </Menu.Item>
+          <Menu.Item name='add-Item'>
+            <Link to='/addItem'> Add Item</Link>
+          </Menu.Item>
         </Menu>
       </div>
     );
